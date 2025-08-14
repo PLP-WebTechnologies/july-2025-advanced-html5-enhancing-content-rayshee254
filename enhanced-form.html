@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A web page demonstrating advanced HTML5 content elements, including lists, tables, media, and forms with validation.">
+  <meta name="keywords" content="HTML5, forms, validation, accessibility, media">
+  <meta name="author" content="Racheal Wanjiru">
+  <title>School Information & Contact Form</title>
+  </head>
+<body>
+    <header>
+      <h1>Welcome to Our School</h1>
+  </header>
+  <main>
+   <section>
+    <h2>Popular Web Development Technologies</h2>
+    <h3>Front-End Technologies</h3>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+
+    <h3>Back-End Technologies</h3>
+    <ol>
+      <li>Python</li>
+      <li>PHP</li>
+      <li>Ruby</li>
+    </ol>
+    <p>Resources for our students:</p>
+          <dl>
+              <dt>Library</dt>
+              <dd>A vast collection of books and digital resources for research and study.</dd>
+               <dt>After-School Programs</dt>
+              <dd>Activities and tutoring available after regular school hours.</dd>
+          </dl>
+  </section>
+              <section>
+    <h2>Module Schedule</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Day</th>
+          <th>Moduke</th>
+          <th>Duration</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Monday</td>
+          <td>Web development</td>
+          <td>1 hour</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>PYTHON</td>
+          <td>1 hour</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>Database</td>
+          <td>1 hour</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h2>Embedded Media</h2>
+    <h3>Image</h3>
+      <img src="pic.jpg" alt="Beach" width="400" height="300">
+      <h3>Audio</h3>
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+<h3>Video</h3>
+    <video controls width="400" height="400">
+      <source src="https://videos.pexels.com/video-files/31890588/13583620_2560_1440_25fps.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+  </section>
+  <section>
+          <h2>Contact Us</h2>
+           <fieldset>
+          <form action="#" method="post" aria-labelledby="contact-form">
+              <fieldset>
+                  <legend>Contact Information</legend>
+
+                  <label for="name">Name:</label><br>
+                  <input type="text" id="name" name="name" required placeholder="Enter your name" minlength="2"><br>
+
+                  <label for="email">Email:</label><br>
+                  <input type="email" id="email" name="email" required placeholder="Enter your email"><br>
+
+                  <label for="phone">Phone (optional):</label><br>
+                  <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" autocomplete="off"><br>
+
+                  <label for="message">Message:</label><br>
+                  <textarea id="message" name="message" required placeholder="Type your message here" minlength="10"></textarea><br>
+
+                  <button type="submit">Send Message</button>
+              </fieldset>
+          </form>
+      </section>
+      </section>
+  </main>
+
+  <footer>
+      <p>&copy; 2025 SHEE INSTITUTION. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+             
